@@ -15,9 +15,9 @@ body {font-family: "Lato", sans-serif; background-color: rgb(238, 238, 238);}
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <!--<a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>-->
     <a href="cv.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CV</a>
-    <a href="blogposts.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOGPOSTS</a>
+    <!--<a href="blogposts.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOGPOSTS</a>-->
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>    
   </div>
 </div>
@@ -26,62 +26,70 @@ body {font-family: "Lato", sans-serif; background-color: rgb(238, 238, 238);}
 <div class="w3-content" style="max-width:2000px;margin-top:46px">  
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="cv">
     <!-- The CV section-->
-    <h1 class="w3-wide w3-center">CV</h1>
+    <h1 class="w3-wide w3-center" style="font-size: 60px;">CV</h1>
     <!-- The About Me section-->
-    <h3 class= "w3-center" style="margin-top:46px;">About Me</h3>
+    <h2 class= "w3-center" style="margin-top:46px;">About Me</h2>
     <p class="w3-justify">
       I have been building, designing, and creating things since I was young. At this point in my life these passions of
       mine have resulted in a multitude of complementary creative, and logical abilities. I pride myself in my ability to
       pick up concepts quickly, and adapt to any situation that comes my way, be it within a team environment, or on my own. 
     </p>    
     <!-- The Skills section-->
-    <h3 class="w3-center" style="margin-top:46px;">Skills</h3>
+    <h2 class="w3-center" style="margin-top:46px;">Skills</h2>
     <div class="w3-center w3-cell-row">
       <div class="w3-container w3-cell">
-        <p class="w3-center w3-opacity">Unreal Engine</p>     
+        <p class="w3-center">Unreal Engine</p>     
         <a href="https://www.unrealengine.com/en-US/" target="_blank">
         <img src="images/CVUnrealEngine.png" class="w3-image">
         </a>
-        <p class="w3-center w3-opacity">4 years</p>         
+        <p class="w3-center">4 years</p>         
       </div>
       <div class="w3-container w3-cell">
-        <p class="w3-center w3-opacity">OpenGL</p>   
+        <p class="w3-center">OpenGL</p>   
         <a href="https://www.opengl.org/" target="_blank">
         <img src="images/CVOpenGL.png" class="w3-image">   
         </a> 
-        <p class="w3-center w3-opacity">4 years</p>   
+        <p class="w3-center">4 years</p>   
     </div>
       <div class="w3-container w3-cell">
-        <p class="w3-center w3-opacity">SourceTree</p> 
+        <p class="w3-center">SourceTree</p> 
         <a href="https://www.sourcetreeapp.com/" target="_blank">
         <img src="images/CVSourceTree.png" class="w3-image">   
         </a>
-        <p class="w3-center w3-opacity">4 years</p>    
+        <p class="w3-center">4 years</p>    
       </div>
       <div class="w3-container w3-cell">
-        <p class="w3-center w3-opacity">ACM ICPC</p> 
+        <p class="w3-center">ACM ICPC</p> 
         <a href="https://icpc.baylor.edu/" target="_blank">
         <img src="images/CVACMICPC.png" class="w3-image">   
         </a>
-        <p class="w3-center w3-opacity">20+ Questions</p> 
+        <p class="w3-center">20+ Questions</p> 
       </div>
       <div class="w3-container w3-cell">
-        <p class="w3-center w3-opacity">C++</p> 
+        <p class="w3-center">C++</p> 
         <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
         <img src="images/CVCplusplus.png" class="w3-image">   
         </a> 
-        <p class="w3-center w3-opacity">4 years</p>  
+        <p class="w3-center">4 years</p>  
       </div>
     </div>
+    <h4 class="w3-center">Other Skills</h4> 
+    <p class="w3-center w3-opacity">
+      - Physics programming (Cloth simulation).<br>
+      - Sony playstation development (Sony SDK)<br>
+      - ImGUI<br>
+      - Windows C++<br>
+      - iOS/macOS Swift Development
+    </p> 
     <!-- The Achievements section-->
-    <h3 class="w3-center" style="margin-top:46px;">Achievements</h3>
+    <h2 class="w3-center" style="margin-top:46px;">Achievements</h2>
     <p class="w3-center">
       - Developed a complex sign language animation blending system for an avatar in Unreal Engine.<br>
       - Developed a text parsing system Unreal Engine to augment sign language animation blending.<br>
-      - Created and developed an specialised animation executable tool in Unreal Engine.<br>
+      - Created and developed a specialised animation executable tool in Unreal Engine.<br>
     </p>  
     <!-- The Employment History section-->
-    <h3 class= "w3-center" style="margin-top:46px;">Employment History</h3>
+    <h2 class= "w3-center" style="margin-top:46px;">Employment History</h2>
     <p class="w3-center">
       Unreal Engine Software Engineer @ <a href="https://www.kara.tech/" target="_blank">Kara Technologies</a><br>
       (November 2019 - April 2020)
@@ -92,16 +100,23 @@ body {font-family: "Lato", sans-serif; background-color: rgb(238, 238, 238);}
       - Software design consultant.<br>
     </p>  
     <!-- The Education section-->
-    <h3 class="w3-center" style="margin-top:46px;">Related Education</h3>
+    <h2 class="w3-center" style="margin-top:46px;">Related Education</h2>
     <div class="w3-center w3-cell-row">
-    <p class="w3-center">Media Design School</p>   
+    <h4 class="w3-center">Media Design School</h4>   
     <a href="https://www.mediadesignschool.com/courses/undergraduate-studies/bachelor-software-engineering-game-programming" target="_blank">
       <img src="images/CVMediaDesignSchool.png" class="w3-circle w3-image" style="width:20%">
     </a>  
-    <p class="w3-center w3-opacity">Bachelor of Software Engineering<br>(February 2017 - November 2019)<br>Game Programming Major</p> 
+    <p class="w3-center">Bachelor of Software Engineering<br>(February 2017 - November 2019)<br>Student Representative</p> 
     </div>
+    <h5 class="w3-center w3-opacity">Other Education</h5>   
+    <p class="w3-center w3-opacity">
+      - IT Diploma. (NorthTec)<br>
+      - Computer forensics. (Techtorium NZIIT)<br>
+      - Computer networking. (Techtorium NZIIT)<br>
+      - Computer hardware. (Techtorium NZIIT)<br>
+    </p>  
     <!-- The References/Portfolio section-->
-    <h3 class="w3-center" style="margin-top:46px;">References/Portfolio</h3>
+    <h2 class="w3-center" style="margin-top:46px;">References/Portfolio</h2>
     <p class="w3-center w3-opacity"> 
       I will provide employer and tertiary references on request. <br>
       Email me at JasperLBusiness@gmail.com      
