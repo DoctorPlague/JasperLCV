@@ -24,8 +24,8 @@ class NavigableCanvas
     constructor(InCanvas) {
         this.canvas = document.createElement('canvas');
         this.canvasContext = this.canvas.getContext('2d');
-        this.canvas.width = 1000;
-        this.canvas.height = 1000;
+        this.canvas.width = 2000;
+        this.canvas.height = 2000;
         this.mouseDown = false;
         this.mouseOver = false;
         this.translateX = 0.0;
@@ -82,6 +82,7 @@ class NavigableCanvas
 
     OnMouseWheel(InEvent) {
         this.scale += -InEvent.deltaY * 0.0005;
+        InEvent.preventDefault(); // prevent page scrolling
     }
 }
 
