@@ -1,3 +1,3 @@
-# TestWebsite
+# JasperL CV Website
 
-https://doctorplague.github.io/TestWebsite/cv.html
+https://doctorplague.github.io/JasperLCV/cv.html
